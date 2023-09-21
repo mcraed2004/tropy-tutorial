@@ -142,7 +142,7 @@ Una de las funciones más importantes de Tropy es la de describir las fuentes a 
 
 Al hacer doble clic en un objeto (una imagen individual o imágenes fusionadas), el proyecto pasará a la vista de objeto (haz clic en la flecha en la parte superior izquierda para volver a la vista de galería), donde además de continuar ingresando metadatos, puedes editar ligeramente la(s) foto(s) en un objeto y agregar notas o anotaciones. En la vista de objeto, la plantilla de metadatos aparece a la mano izquierda de la interfaz. En esta vista, es más fácil analizar la imagen para agregar metadatos individuales. Siempre es recomendable ingresar los metadatos de una manera consistente. Por ejemplo, si ingresas el nombre del creador (autor) de un expediente por apellidos seguidos por primeros nombres, deberías seguir con este formato. De la misma manera, es recomendado que uses el formato de fecha ISO (AAAA-MM-DD, es decir, año con cuatro numerales, mes y día con dos numerales) para los valores en el campo para "Fecha." (1730-02-01 se convertirá en 1 feb 1730). Tropy reproducirá la fecha legible para organizar en columnas de forma cronológica.
 
-Personalizando metadatos
+### Personalizando metadatos
 
 Tropy cuenta con un editor de plantillas para facilitar la creación de plantillas de metadatos personalizadas. En Preferencias, navega a plantillas, donde puedes revisar cualquier plantilla en la instalación.
 
@@ -202,15 +202,13 @@ Es posible exportar imágenes individuales, objetos, (con o sin metadatos y anot
 
 Exportar por esta ruta es parecida a "Imprimir" (Archivo>Imprimir) en formato PDF. Los parámetros para imágenes exportadas en PDF se encuentran en Preferencias. Puedes elegir a incluir o no fotos, metadatos, y notas, además de consideraciones de formato (optimizar tamaño y calidad de foto, incluir únicamente fotos con notas, y permitir el contenido de utilizar más de una página).
 
-[Imagen: Opciones de imprimir en Preferencias]
-
 Para exportar una selección, busca el nombre de la selección en el panel de fotos debajo de la plantilla de metadatos. Haz clic derecho (Control+clic en Mac) en su nombre en la lista y elige "Exportar selección" del menú contextual. Se exportará la selección en formato .jpg, sin metadatos. 
 
 ### Instalación de programas adicionales (plugins)
 
 Plugins o programas adicionales son extensiones que puedes instalar para facilitar la importación y exportación de imágenes y metadatos. Los plugins oficiales residen en el [repositorio de Github](https://github.com/tropy) de Tropy. También, es posible encontrarlos a través de la página web de Tropy, al fondo de la página principal. Para instalar uno, navega al repositorio y descarga el plugin deseado. Existen plugins para integración con una instalación de Omeka S, exportación de objetos para Zotero (CSL), y exportación en formato .zip y .csv. Adicionalmente es posible importar archivos .csv y manifestos IIIF.
 
-Caso de uso: Integración con Zotero
+### Caso de uso: Integración con Zotero
 
 En algunos casos, podría ser útil convertir metadatos grabados en Tropy a una referencia en Zotero. Antes de comenzar, vale la pena preguntar si necesitar importar de Tropy a [Zotero](https://www.zotero.org/). Si tu proyecto cuenta con documentos o manuscritos de archivo con una estructura de metadatos similar a un elemento de Zotero, o si tu proyecto contiene una serie de objetos con nombre similares que citas seguidamente (boletines, periódicos, etc), importar desde Tropy a Zotero puede ser útil. En otros casos, podría ser más fácil trabajar directamente con la fuente en Zotero (si es un objeto en PDF, puedes utilizar el lector de PDF de Zotero) o crear una referencia manualmente en Zotero para citar en trabajos. A continuación, se detalla cómo importar los metadatos elaborados en Tropy de un expediente de la Sección Civil-Esclavos de la ANHV a Zotero.
 
